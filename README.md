@@ -1,9 +1,8 @@
 # echo
 For controlling local devices with the Amazon Echo.
 
-Instructions for installation and usage [available on Instructables here](http://www.instructables.com/id/Hacking-the-Amazon-Echo/)
-
-Brought to you by [FabricateIO](http://fabricate.io)
+Forked from Instructions for installation and usage [available on Instructables here](http://www.instructables.com/id/Hacking-the-Amazon-Echo/)
+forked from by [FabricateIO](http://fabricate.io)
 
 ## Quick Start
 
@@ -16,4 +15,8 @@ Brought to you by [FabricateIO](http://fabricate.io)
 7. Use Echo's "turn off device" and "device on" to see True/False script output
 
 # Notes
+## Caveats
 Alexa uses round robin when running commands, so it's impossible to tell where the command was issued from i.e. you have a dot upstairs and downstairs. Issue a command from upstairs, but the downtairs echo runs that command.
+
+## Devices controlled
+Code in this controls TP-link smart switches and also wemo switches
